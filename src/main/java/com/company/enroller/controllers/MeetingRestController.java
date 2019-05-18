@@ -19,7 +19,7 @@ import com.company.enroller.persistence.MeetingService;
 import com.company.enroller.persistence.ParticipantService;
 
 @RestController
-@RequestMapping("/meetings")
+@RequestMapping("/api/meetings")
 public class MeetingRestController {
 
 	@Autowired
